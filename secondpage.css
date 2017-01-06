@@ -1,0 +1,110 @@
+body {
+    background: #FF8000;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    height:100%;
+}
+.fredoka {
+    font-family: "Fredoka One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.strong {
+  font-weight: 700;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 60px; line-height: 50px; margin-bottom: 26px; }
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+    font-family: "Fredoka One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 2px 2px 2px #AAF200;
+    padding-left: 25px;
+}
+html {
+height: 100%;
+}
+.italic {
+    font-style: italic;
+}
+
+.clear { clear:both; }
+.invisible { display: none; }
+.hidden {visibility: hidden;}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navli {
+    float: left;
+}
+
+#navli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navli a:hover {
+    background-color: #111;
+}
+
+ul {
+    list-style: none;
+}
+#videos{
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+}
+#videos ul li {
+    float: left;
+    padding-left: 8px;
+    margin:3px;
+}
+#videos ul li div{
+    
+}
+
+#music{
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+}
+#music ul li {
+    float: left;
+    padding-left: 8px;
+    margin:3px;
+}
+#music ul li div{
+   
+}
+
+#memes{
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+}
+
+#memes ul li {
+    float: left;
+    padding-left: 8px;
+    margin:3px;
+}
+
+#memes ul li div{
+    height: 400px;
+}
+
+iframe{
+    overflow: hidden;
+}
+    
+.linkwrap { position:relative; display:inline-block; }
+.blocker { position:absolute;height:100%; width:100%; z-index:1; }
+.linkwrap iframe { z-index: 2; }
